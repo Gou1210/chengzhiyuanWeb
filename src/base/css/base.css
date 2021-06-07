@@ -1,0 +1,104 @@
+/*全局样式*/
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div,
+dl,
+dt,
+dd,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+ol,
+ul,
+li,
+table,
+p {
+    font-weight: normal;
+    border: 0;
+    cursor: default;
+    outline: none;
+}
+body{
+    width: 1200px;
+    min-width: 100%;
+}
+img,
+input {
+    border: none;
+    vertical-align: middle;
+}
+
+body {
+    font-family: "PingFang SC", "Microsoft YaHei", "Helvetica Neue", "AlipayNumber", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    color: #555;
+    /* height: 100%; */
+    overflow-y: auto;
+}
+
+#app {
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+}
+
+select {
+    border-width: 1px; /*no*/
+    border-style: solid;
+    padding-top: 2px;
+
+}
+
+a {
+    cursor: pointer;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+    color: #000;
+}
+
+[v-clock] {
+    display: none !important;
+}
+
+.bigScreen{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
